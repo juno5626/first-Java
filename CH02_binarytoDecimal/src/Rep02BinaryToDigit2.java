@@ -3,7 +3,7 @@ import javax.swing.*;
 public class Rep02BinaryToDigit2 {
 	public static boolean judgeNum(String number) {
 		for(char one : number.toCharArray()) {
-			if(one!='0'||one!='0') {
+			if(!(one=='0'||one=='1')) {
 				return false;
 			}
 		}
